@@ -1,0 +1,65 @@
+.accordion-section {
+  .accordion-holder {
+    margin-top: 60px;
+
+    .card {
+      box-shadow: none;
+      border-radius: 0;
+      margin-bottom: 10px;
+      border-bottom: 1px solid rgba(0,0,0,.125);
+
+      .card-header {
+        background: $light;
+        padding: 0;
+        border-radius: 0;
+
+        .card-title {
+          margin-bottom: 0;
+        }
+
+        h4 {
+          position: relative;
+
+          a {
+            font-weight: bold;
+            font-family: $primary-font;
+            font-size: 20px;
+            display: block;
+            background: $primary-color;
+            color: $light;
+            padding: 20px 30px;
+            transition: all .3s ease;
+
+            &:before {
+              content: '\f077';
+              position: absolute;
+              right: 20px;
+              font-family: $icon-font;
+              font-weight: bold;
+            }
+
+            &.collapsed {
+              background: $light;
+              color: $black;
+
+              &:before {
+                content: '\f078';
+                position: absolute;
+                font-family: $icon-font;
+                font-weight: bold;
+              }
+
+              &:hover {
+                color: $primary-color;
+              }
+            }
+          }
+        }
+      }
+
+      .card-body {
+        padding: 20px 30px;
+      }
+    }
+  }
+}

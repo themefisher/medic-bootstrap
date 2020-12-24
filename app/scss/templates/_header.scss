@@ -1,0 +1,140 @@
+.logo {
+  display: inline-block;
+}
+
+.single-page-header {
+  background-image: url('../images/about/about-header.jpg');
+  background-size: cover;
+  padding: 140px 0 70px;
+  text-align: center;
+  color: $light;
+  position: relative;
+
+  &:before {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+}
+
+.header-top {
+  background: #ffffff;
+  border-bottom: 1px solid #ececec;
+
+  .top-left {
+    h6 {
+      font-size: 15px;
+      line-height: 26px;
+      color: #777777;
+      font-weight: 400;
+      padding: 14px 0px;
+      font-family: $secondary-font;
+    }
+  }
+
+  .top-left .contact-links li {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #b2b2b7;
+    margin-right: 40px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .top-right .social-links {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+
+    @include tablet {
+      padding-left: 0;
+    }
+
+    li {
+      display: inline-block;
+
+      i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin: -1px;
+        font-size: 16px;
+        color: #777777;
+        text-align: center;
+        border: 1px solid #ececec;
+        transition: .3s;
+      }
+
+      &:hover i {
+        color: #7b64cb;
+        border-color: #7b64cb;
+      }
+    }
+  }
+}
+
+.header-uper {
+  padding: 40px 0px;
+
+  .contact-info {
+    float: left;
+
+    @include desktop {
+      text-align: center;
+      .item {
+        margin: 0 20px;
+      }
+    }
+  }
+
+  .contact-info .item {
+    position: relative;
+    display: inline-block;
+    padding-left: 70px;
+    margin-right: 40px;
+
+    .icon-box {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: 53px;
+      height: 53px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 57px;
+      border: 1px solid #5ec5cc;
+
+      i:before {
+        color: #5ec5cc;
+        font-size: 22px;
+      }
+    }
+
+    strong {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 600;
+      color: #222222;
+      text-transform: capitalize;
+      font-family: $secondary-font;
+    }
+
+    span {
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: 400;
+      color: #777777;
+      font-family: $secondary-font;
+    }
+  }
+
+  .right-side .link-btn {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+}

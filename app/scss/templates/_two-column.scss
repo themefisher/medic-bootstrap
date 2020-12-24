@@ -1,0 +1,136 @@
+.service-tab-section {
+  position: relative;
+
+  .outer-box {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.tabs {
+
+  .nav-tabs>li,
+  .nav-pills>li {
+    margin-bottom: 10px;
+  }
+
+  .nav-tabs {
+    text-align: center;
+    border-bottom: 0;
+    margin-bottom: 20px;
+
+    li {
+      &:not(:last-child) {
+        margin-right: 10px;
+      }
+
+      a {
+        text-transform: capitalize;
+        font-size: 20px;
+        padding: 10px 25px;
+        font-weight: 600;
+        color: lighten($color: $black, $amount: 30);
+        font-family: $primary-font;
+        border: 2px solid $primary-color;
+        border-radius: 0;
+        transition: all .3s ease;
+
+        &.active,
+        &:hover {
+          color: $light;
+          background: $primary-color;
+          border: 2px solid $primary-color;
+        }
+      }
+    }
+  }
+}
+
+.tab-content {
+  position: relative;
+  float: left;
+  width: 100%;
+  z-index: 99;
+}
+
+.service-box {
+  position: relative;
+  width: 100%;
+
+  img {
+    border-radius: 14px;
+    width: 100%;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.2);
+  }
+
+  .contents {
+    margin-left: 30px;
+
+    @include desktop {
+      margin-left: 0;
+      margin-top: 50px;
+    }
+
+    .btn-style-one {
+      margin-top: 20px;
+    }
+  }
+
+  .section-title h3 {
+    position: relative;
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 45px;
+    color: $black;
+    text-transform: uppercase;
+
+    &:before {
+      position: absolute;
+      left: 0px;
+      content: '';
+      bottom: 0px;
+      background: darken($color: $light, $amount: 80);
+      height: 1px;
+      width: 55px;
+    }
+  }
+
+  .text {
+    position: relative;
+    margin-bottom: 15px;
+
+    p {
+      font-size: 15px;
+      line-height: 26px;
+      font-weight: 500;
+      padding-top: 5px;
+    }
+  }
+
+  .icon-box {
+    position: absolute;
+    top: 0px;
+    left: -5px;
+  }
+
+  .content-list {
+    padding-left: 0;
+  }
+
+  .content-list li {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    padding: 4px 0px;
+    padding-left: 27px;
+    list-style: none;
+    position: relative;
+    i {
+      position: absolute;
+      left: 0;
+      top: 9px;
+    }
+  }
+}

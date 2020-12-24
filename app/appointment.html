@@ -1,0 +1,77 @@
+@@include('header.htm')
+
+@@include('blocks/navigation.htm', {"appointment": "active"})
+
+@@include('blocks/page-title.htm',{ "title" : "appointment" })
+
+<!-- Section -->
+<section class="section style-three pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 order-1 order-lg-0">
+        <div class="contact-area style-two pl-0 pr-0 pr-lg-4">
+          <div class="section-title">
+            <h3>Request <span>Appointment</span></h3>
+          </div>
+          <form name="contact_form" class="default-form contact-form" action="!#" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="Name" placeholder="Name" required="">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="email" name="Email" placeholder="Email" required="">
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="subject">
+                    <option>Departments</option>
+                    <option>Diagnostic</option>
+                    <option>Psychological</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input class="form-control" type="text" name="Phone" placeholder="Phone" required="">
+                </div>
+                <div class="form-group">
+                  <input class="form-control" type="text" name="Date" placeholder="Date" required="" id="datepicker" autocomplete="off">
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
+                </div>
+                <div class="form-group">
+                  <select class="form-control" name="subject">
+                    <option>Doctor</option>
+                    <option>Diagnostic</option>
+                    <option>Psychological</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-group">
+                  <textarea class="form-control" name="form_message" placeholder="Your Message" required=""></textarea>
+                </div>
+                <div class="form-group text-center">
+                  <button type="submit" class="btn-style-one">submit now</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 mb-4 mb-lg-0 order-0 order-lg-1">
+        <div class="appointment-image-holder ml-0 ml-lg-4">
+          <figure>
+            <img loading="lazy" class="w-100" src="images/background/appoinment.jpg" alt="Appointment">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Section -->
+
+@@include('blocks/team.htm')
+
+@@include('blocks/footer.htm')
+
+@@include('footer.htm')

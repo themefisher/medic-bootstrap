@@ -1,0 +1,89 @@
+.feature-section {
+  position: relative;
+  .image-content {
+    .section-title {
+      h3 {
+        position: relative;
+        padding-bottom: 15px;
+      }
+      p {
+        margin-bottom: 40px;
+      }
+      margin-bottom: 20px;
+    }
+    .item {
+      position: relative;
+      margin-top: 40px;
+      padding: 0 30px;
+      @include tablet {
+        padding: 0;
+      }
+    }
+    .icon-box {
+      height: 50px;
+      margin-bottom: 20px;
+    }
+    .item {
+      h3 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #222222;
+        font-family: $secondary-font;
+      }
+      p {
+        font-size: 15px;
+        line-height: 28px;
+      }
+    }
+  }
+  .contact-info {
+    .item {
+      position: relative;
+      display: inline-block;
+      margin: -2px;
+      padding: 22px 67px 20px 105px;
+      &:nth-child(1) {
+        background: #8383d1;
+      }
+      &:nth-child(2) {
+        background: #7491ce;
+      }
+      &:nth-child(3) {
+        background: #6fb4d0;
+      }
+    }
+    .icon-box {
+      position: absolute;
+      top: 40px;
+      left: 45px;
+    }
+    i:before {
+      font-size: 30px;
+      color: #ffffff;
+    }
+    h6 {
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: $primary-font;
+    }
+    p {
+      font-size: 15px;
+      line-height: 28px;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: $secondary-font;
+    }
+  }
+}
+
+.feature-section.style-two {
+  position: relative;
+  padding: 0px;
+  margin-top: -56px;
+  margin-bottom: -50px;
+  z-index: 11;
+}

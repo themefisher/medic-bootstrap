@@ -1,0 +1,64 @@
+.map{
+  position: relative;
+  #map{
+    height:400px;
+    color: white;
+  }
+}
+
+.contact{
+  .contact-form{
+    .form-control{
+      margin-bottom: 30px;
+    }
+  }
+  .address-block{
+    .media{
+      display: flex;
+      @include tablet {
+        flex-wrap: wrap;
+        text-align: center;
+        &:last-child{
+          margin-bottom: 30px;
+        }
+      }
+      i{
+        color: $primary-color;
+        font-size: 30px;
+        margin-right: 35px;
+        width: 40px;
+        display: block;
+        @include tablet {
+          flex-basis: 100%;
+          margin-right: 0;
+          margin-bottom: 30px;
+        }
+      }
+      .media-body{
+        h3{
+          font-size: 24px;
+          margin-bottom: 15px;
+        }
+        p{
+          line-height: 25px;
+        }
+      }
+      &:not(:last-child){
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+  padding: 15px 20px;
+  font-size: 14px;
+  &:focus {
+    box-shadow:none;
+    border:1px solid $primary-color;
+  }
+  &.main{
+    padding:20px;
+  }
+}

@@ -1,0 +1,128 @@
+.hero-slider {
+  height: 80vh;
+
+  .slider-item {
+    height: 80vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:before {
+      position: absolute;
+      background: rgba($color: #000000, $alpha: .5);
+      content: '';
+      top: 0;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+
+    &.style {
+      h2 {
+        font-size: 60px;
+
+        @include tablet {
+          font-size: 30px;
+        }
+      }
+
+      .offer-text {
+        letter-spacing: 7px;
+        font-size: 15px;
+        margin-bottom: 5px;
+      }
+
+      .tag-text {
+        font-size: 20px;
+        font-weight: normal;
+      }
+
+      .btn-main {
+        border-radius: 3px;
+        padding: 16px 50px;
+        font-weight: 700;
+      }
+    }
+
+    h2 {
+      font-size: 35px;
+      text-transform: capitalize;
+      font-weight: 600;
+      font-family: $secondary-font;
+      color: $light;
+    }
+
+    p {
+      font-size: 26px;
+      color: $light;
+    }
+
+    .btn-white {
+      background: transparent;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: $light;
+      border: 1px solid $light;
+      transition: all .3s ease;
+
+      &:hover {
+        background: $light;
+        color: $black;
+      }
+    }
+  }
+
+  .slick-dots {
+    bottom: 20px;
+
+    li {
+      margin: 0 3px;
+
+      button:before {
+        font-size: 15px;
+      }
+
+      &.slick-active button:before {
+        color: $light;
+      }
+    }
+  }
+
+  .slick-prev {
+    left: 20px;
+    z-index: 100;
+
+    &:before {
+      content: '\f053';
+      font-family: $icon-font;
+      font-weight: bold;
+    }
+  }
+
+  .slick-next {
+    right: 20px;
+    z-index: 100;
+
+    &:before {
+      content: '\f054';
+      font-family: $icon-font;
+      font-weight: bold;
+    }
+  }
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0 !important;
+}
