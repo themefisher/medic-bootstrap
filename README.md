@@ -4,13 +4,13 @@ If your goal is to create a professional medical website, look no further than M
 
 <!-- demo -->
 ## Example Site
-| [![](screenshots/homepage.png)](https://demo.themefisher.com/medic/index.html) | [![](screenshots/about.png)](https://demo.themefisher.com/medic/about.html) | [![](screenshots/service.png)](https://demo.themefisher.com/medic/service.html) |
+| [![](screenshots/homepage.png)](https://demo.themefisher.com/themefisher/medic/index.html) | [![](screenshots/about.png)](https://demo.themefisher.com/themefisher/medic/about.html) | [![](screenshots/service.png)](https://demo.themefisher.com/themefisher/medic/service.html) |
 |:---:|:---:|:---:|
 | **Homepage**  | **About**  | **Service**  |
-| [![](screenshots/gallery.png)](https://demo.themefisher.com/medic/gallery.html) | [![](screenshots/team.png)](https://demo.themefisher.com/medic/team.html) | [![](screenshots/contact.png)](https://demo.themefisher.com/medic/contact.html) |
+| [![](screenshots/gallery.png)](https://demo.themefisher.com/themefisher/medic/gallery.html) | [![](screenshots/team.png)](https://demo.themefisher.com/themefisher/medic/team.html) | [![](screenshots/contact.png)](https://demo.themefisher.com/themefisher/medic/contact.html) |
 | **Gallery** | **Team** | **Contact** |
 
-👉🏻[View Live Preview](https://demo.themefisher.com/medic/)
+👉🏻[View Live Preview](https://demo.themefisher.com/themefisher/medic/)
 
 
 <!-- download -->
