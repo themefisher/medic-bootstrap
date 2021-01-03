@@ -64,8 +64,21 @@ If you have questions or need help integrating the product please [contact us](m
 
 <!-- licence -->
 ## License
-Copyright &copy; 2020 Designed & Developed by [Themefisher](https://themefisher.com)
+Copyright &copy; 2021 Designed & Developed by [Themefisher](https://themefisher.com)
 
 **Code License:** Released under the [MIT](https://github.com/themefisher/Medic-Bootstrap-Medical-Template/blob/master/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their own licence, we don't have permission to share those image.
+
+<!-- resources -->
+## Resources
+Some third-party plugins that we used to build this template. Please check their licence.
+* **Bootstrap v4.5**: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+* **Jquery v3.5.1**: https://jquery.com/download/
+* **Google Fonts**: http://fonts.google.com/
+* **Animate CSS**: https://animate.style/
+* **Fancybox**: http://fancybox.net/
+* **Font Awesome Free**: https://fontawesome.com/
+* **jQueryUi**: https://jqueryui.com/
+* **Time Picker**: http://pttimeselect.sourceforge.net/example/index.html
+* **Slick**: https://kenwheeler.github.io/slick/
