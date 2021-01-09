@@ -12,6 +12,18 @@ If your goal is to create a professional medical website, look no further than M
 
 👉🏻[View Live Preview](https://demo.themefisher.com/themefisher/medic/)
 
+<!-- pages -->
+## Pages
+* **Homepage**
+* **About**
+* **Services**
+* **Gallery**
+* **Team**
+* **Appointment**
+* **Blogs**
+* **Blog Details**
+* **Contact**
+
 
 <!-- download -->
 ## Download And installation
